@@ -31,57 +31,58 @@ int main()
         
         // Write an action using cout. DON'T FORGET THE "<< endl"
         // To debug: cerr << "Debug messages..." << endl;
+        
         if ( 0 <= lightX < 40 and 0 <= lightY < 18 and 0 <= initialTX < 40 and 0 <= initialTY < 18)
            {
-               if (distY == 0 and distX != 0)
+               if (distY == 0 and distX != 0)   // Straight line horizontally
                {              
-                    if (distX > 0 )
+                    if (distX > 0 )             // Straight line moving East
                     {
                         cout << 'E' << endl;
                         distX = distX - 1;
                     }
-                    if (distX < 0)
+                    if (distX < 0)              // Straight line moving West
                     {
                         cout << 'W' << endl;
                         distX = distX + 1;
                     }
                 }
             
-                if (distY != 0 and distX == 0)
+                if (distY != 0 and distX == 0)  // Straight line vertically
                 {
-                    if (distY > 0)
+                    if (distY > 0)              // Straight line moving South
                     {
                         cout << 'S' << endl;
                         distY = distY - 1;
                     }
-                    if (distY < 0)
+                    if (distY < 0)              // Straight line moving North
                     {
                         cout << 'N' << endl;
                         distY = distY + 1;
                     }
                 }
     
-                if (distX != 0 and distY != 0)
+                if (distX != 0 and distY != 0)      // Angle line 
                 {
-                    if (distX > 0 and distY > 0)
+                    if (distX > 0 and distY > 0)    // Angle line moving SouthEast
                     {
                         cout << "SE" << endl;
                         distX = distX - 1;
                         distY = distY - 1;
                     }
-                    if (distX < 0 and distY > 0)
+                    if (distX < 0 and distY > 0)    // Angle line moving SouthWest
                     {
                         cout << "SW" << endl;
                         distX = distX + 1;
                         distY = distY - 1;
                     }
-                    if (distX > 0 and distY < 0)
+                    if (distX > 0 and distY < 0)    // Angle line moving NorthEast
                     {
                         cout << "NE" << endl;
                         distX = distX - 1;
                         distY = distY + 1;
                     }
-                    if (distX < 0 and distY < 0)
+                    if (distX < 0 and distY < 0)    // Angle line moving NorthWest
                     {
                         cout << "NW" << endl;
                         distX = distX + 1;
