@@ -23,9 +23,9 @@ int main()
         for (int i = 0; i < 8; i++) {
             int mountainH; // represents the height of one mountain.
             cin >> mountainH; cin.ignore();
-            if (mountainH >= max) {
-                max = mountainH;
-                imax = i;
+            if (mountainH >= max) { // compares the height of the mountain with the stored max
+                max = mountainH;    // assigns the new value if the height was bigger than the max
+                imax = i;   // identifies the number the highest mountain
             }
         }
 
