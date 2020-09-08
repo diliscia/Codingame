@@ -48,3 +48,37 @@ int main()
     }
     cout << minDist << endl;
 }
+
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+/**
+ * Auto-generated code below aims at helping you parse
+ * the standard input according to the problem statement.
+ **/
+int main()
+{
+    vector<int> P;
+    int minDif = 10000000;
+    int N;
+    
+    cin >> N; cin.ignore();
+    for (int i = 0; i < N; i++) {
+        int Pi;
+        cin >> Pi; cin.ignore();
+        P.push_back(Pi);
+        if (i > 0) {
+            for (int j = 0; j < i; j++) {
+                if (abs(P[j] - Pi) < minDif) {
+                    minDif =  abs(P[j] - Pi);
+                }
+            }
+            
+        }
+    }
+    cout << minDif << endl;
+}
