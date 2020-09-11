@@ -11,7 +11,7 @@ asciialfa = []      # list to register the ACII alphabet
 alfa = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ?'    # uppercase alphabet
 for height in range(h):
     asciialfa.append(input())   # registering ASCII alphabet 
-for lines in range(l+1):
+for lines in range(h):
     for letter in t:            # finding index of each letter in the word
         idx = alfa.find(letter.capitalize())
         if idx == -1:
