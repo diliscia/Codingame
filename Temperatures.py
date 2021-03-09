@@ -11,7 +11,7 @@ result = 0  # the value of the result
 for i in input().split():
     # t: a temperature expressed as an integer ranging from -273 to 5526
     t = int(i)
-    dif2 = abs(t-0)  # calculate de difference to reference
+    dif2 = abs(t-0)  # calculate absolute difference to reference
     if (dif2 < dif): # if is inferior 
         dif = dif2  # keep this difference
         result = t  # keep this temperatue
