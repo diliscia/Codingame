@@ -30,11 +30,10 @@ while (true) {
         else if (vSpeed < -40) {
             power = 4;
         } 
-        console.log(0 + ' ' + power);
     }
     else if (Y < 150) { 
         power = 4;
-        console.log(0 + ' ' + power);        
-    }         
+    }
+    console.log(0 + ' ' + power);             
     // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
 }
