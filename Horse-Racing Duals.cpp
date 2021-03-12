@@ -23,7 +23,7 @@ int main()
     }
     sort(P.begin(), P.begin()+N);
  
-    for (int j = 0; j < N-1; ++j) {
+    for (int j = 0; j < N-1; j++) {
         if (P[j+1] - P[j] < minDif) {
             minDif = P[j+1] - P[j];
         }
