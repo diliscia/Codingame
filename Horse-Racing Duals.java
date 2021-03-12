@@ -19,7 +19,7 @@ class Solution {
         }
         Collections.sort(p);
 
-        for (int j = 0; j < N-1; ++j) {
+        for (int j = 0; j < N-1; j++) {
             if (p.get(j+1) - p.get(j) < minDif) {
             minDif = p.get(j+1) - p.get(j);
             }
