@@ -2,12 +2,12 @@
 # the standard input according to the problem statement.
 
 read -r N
-declare -a P
-declare -a Ps
+declare -a P    # array of horses strengths
+declare -a Ps   # sorted array of horses strengths
 minDif=10000000 # minimum difference
 for (( i=0; i<$N; i++ )); do
     read -r Pi  
-    P[i]=$Pi    # array of horses strenghts 
+    P[i]=$Pi    # fill up the array of horses strenghts 
 done 
 
 #for (( j=$N-1 ; j>=0; j-- )); do   # this sorting works too but takes too long
@@ -21,11 +21,11 @@ done
 #    done
 #done
 
-sP=($( printf "%s\n" "${P[@]}" | sort -n )) # this sorting uses bash sort command
+Ps=($( printf "%s\n" "${P[@]}" | sort -n )) # this sorting uses bash sort command
 
 for (( i=0; i<N-1; i++)); do    # checks the differences between the sorted horses
-    a="${sP[i]}"
-    b="${sP[i+1]}"
+    a="${Ps[i]}"
+    b="${Ps[i+1]}"
     Dif=$((b-a))
     if [ $Dif -lt $minDif ] # selects the minimum difference 
     then 
