@@ -14,10 +14,10 @@ Each movement makes Thor move by 1 cell in the chosen direction.
 ### Initial phase
 Thor starts on the map at position (3, 6). The light is at position (3, 8).
 ### Round 1
-Action S: Thor moves towards south.
+Action **S**: Thor moves towards south.
 New position is (3, 7).
 ### Round 2
-Action S: Thor moves towards south.
+Action **S**: Thor moves towards south.
 New position is (3, 8).
 
 ## Note
@@ -37,3 +37,16 @@ A **single line** providing the move to be made: **N NE E SE S SW W** or **NW**
 0 ≤ initialTX < 40
 0 ≤ initialTY < 18
 Response time for a game round ≤ 100ms
+
+## Strategy
+The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the 4 variables **lightX lightY initialTX initialTY** and added a **remainingTurns** one that counts the maximum number of iterations you have to reach the goal. 
+
+I started using an if statement to asure the valiues of the variables were within the constraints.
+
+Then, to solve the problem, I opted to calculate the distance from the initial position of Thor to the position of the light and then use if statements to indicate the direction to take. For that I started by defining two variables **distX** and **distY** that will give me information. If **distX** was positive Thor must go East , if negative West. If **distY** was positive Thor must go North, if negative South.
+
+Then, there were the combinations of the values of **distX** and **distY** that gave the information if Thor needed to go North-East, South-East, South-West or North-West.
+
+The program output for each iteration was a single line providing the movement to made, and while doing that updated the value of the variables **distX** and **distY**, adding (if going North or West) or substracting (if going South of East) the number of steps taken.
+
+I repeated all the process through all the iterations sending the correponding text as output until Thor reached the Light of Power.
