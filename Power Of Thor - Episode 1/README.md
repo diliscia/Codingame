@@ -38,7 +38,7 @@ The program must first read the initialization data from the standard input, the
 ### Input for a game round
 **Line 1:** the number of remaining moves for Thor to reach the light of power: remainingTurns. You can ignore this data but you must read it.
 
-## Output for a game round
+### Output for a game round
 A **single line** providing the move to be made: **N NE E SE S SW W** or **NW**
 
 ## Constraints
