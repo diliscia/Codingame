@@ -1,7 +1,7 @@
 # Power Of Thor - Episode 1
-## 	The Goal
-The urpose of the program is to allow Thor to reach the light of power.
-## 	Rules
+## The Goal
+The purpose of the program is to allow Thor to reach the light of power.
+## Rules
 Thor moves on a map which is **40** wide by **18** high. Note that the coordinates (X and Y) start at the top left! This means the most top left cell has the coordinates "X=0,Y=0" and the most bottom right one has the coordinates "X=39,Y=17".
 
 **Once the program starts** you are given:
@@ -10,7 +10,7 @@ the variable **lightY**: the Y position of the light of power that Thor must rea
 the variable **initialTX**: the starting X position of Thor.
 the variable **initialTY**: the starting Y position of Thor.
 **At the end of the game turn**, you must output the direction in which you want Thor to go among:
-	
+
 N (North)
 NE (North-East)
 E (East)
@@ -21,14 +21,14 @@ W (West)
 NW (North-West)
 Each movement makes Thor move by 1 cell in the chosen direction.
  
-Initial phase
+## Initial phase
 Thor starts on the map at position (3, 6). The light is at position (3, 8).
 
-Round 1
+## Round 1
 Action S: Thor moves towards south.
 New position is (3, 7).
 
-Round 2
+## Round 2
 Action S: Thor moves towards south.
 New position is (3, 8).
 
