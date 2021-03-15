@@ -11,13 +11,13 @@ The Puzzles I've done so far are:
 
 **Name** / Languages Solved 
 
-**ASCII Art** / C++, Python, Java, JavaScript, Bash
+**ASCII Art** / C++, Python
 
-**Chuck Norris** / C++, Python, Java, JavaScript, Bash 
+**Chuck Norris** / C++, Python 
 
-**Defibrillators** / C++, Python, Java, JavaScript, Bash
+**Defibrillators** / C++, Python
 
-**Horse-Racing Duals** / C++, Python, Java, JavaScript, Bash
+**Horse-Racing Duals** / C++, Python
 
 **MIME Type** / C++, Python, Java, JavaScript, Bash
 
