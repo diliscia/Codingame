@@ -1,5 +1,4 @@
-# 
-Power Of Thor - Episode 1
+# Power Of Thor - Episode 1
 ## 	The Goal
 The urpose of the program is to allow Thor to reach the light of power.
 ## 	Rules
