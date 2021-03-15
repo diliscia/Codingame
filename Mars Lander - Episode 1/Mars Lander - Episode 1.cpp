@@ -34,13 +34,9 @@ int main()
         // Write an action using cout. DON'T FORGET THE "<< endl"
         // To debug: cerr << "Debug messages..." << endl;
         
-        if (Y > 150) {
-            if (vSpeed > 40) power = 2;
-            else if (vSpeed < -40) power = 4; 
-        }
-        else if (Y < 150) power = 4;
-        
-        // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
+        if (vSpeed > -40) {power = 0;}
+        else {power = 4;} 
+                // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
         
         cout << 0 << " " << power << endl;
     }
