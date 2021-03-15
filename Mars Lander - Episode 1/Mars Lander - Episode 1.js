@@ -23,17 +23,12 @@ while (true) {
 
     // Write an action using console.log()
     // To debug: console.error('Debug messages...');
-    if (Y > 150) {
-        if (vSpeed > 40) {
+    if (vSpeed > -40) {
             power = 0;
         }
-        else if (vSpeed < -40) {
+    else {
             power = 4;
         } 
-    }
-    else if (Y < 150) { 
-        power = 4;
-    }
     console.log(0 + ' ' + power);             
     // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
 }
