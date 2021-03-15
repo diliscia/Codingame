@@ -8,13 +8,13 @@ Write a program which, using a given number of strengths, identifies the two clo
 
 ## Game Input
 
-## Input
+### Input
 
 **Line 1:** Number N of horses
 
 **The N following lines:** the strength Pi of each horse. Pi is an integer.
 
-## Output
+### Output
 
 The difference D between the two closest strengths. D is an integer greater than or equal to 0.
 
