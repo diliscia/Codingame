@@ -85,9 +85,9 @@ Response time per turn ≤ 100ms
 ## Example
 **Initialization input**
 
-6	(surfaceN) Surface made of 6 points
+6		(surfaceN) Surface made of 6 points
 
-0 1500	(landX landY)
+0 1500		(landX landY)
 
 1000 2000	(landX landY)
 
@@ -99,7 +99,7 @@ Response time per turn ≤ 100ms
 
 6999 1000	(landX landY)
 
-No output expected
+**No output expected**
 
 You can ignore this but you need to read the values.
 
