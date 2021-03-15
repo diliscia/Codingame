@@ -4,7 +4,7 @@ Binary with 0 and 1 is good, but binary with only 0, or almost, is even better! 
 
 Write a program that takes an incoming message as input and displays as output the message encoded using Chuck Norris’ method.
 
-# Rules
+## Rules
 Here is the encoding principle:
 
 The input message consists of ASCII characters (7-bit)
@@ -14,7 +14,7 @@ Two consecutive blocks are used to produce a series of same value bits (only **1
 - First block: it is always **0** or **00**. If it is **0**, then the series contains **1**, if not, it contains **0**
 - Second block: the number of **0** in this block is the number of bits in the series
  
-# Example
+## Example
 Let’s take a simple example with a message which consists of only one character: Capital C. C in binary is represented as 1000011, so with Chuck Norris’ technique this gives:
 
 **0 0** (the first series consists of only a single **1**)
@@ -32,23 +32,20 @@ Second example, we want to encode the message CC (i.e. the 14 bits **10000111000
 **0 00** (two **1**)
 So CC is coded as: **0 0 00 0000 0 000 00 0000 0 00**
 
-# Game Input
+## Game Input
 
-**Input**
+### Input
 **Line 1:** the message consisting of N ASCII characters (without carriage return)
 
-**Output**
+### Output
 The encoded message
 
-**Constraints**
-
+## Constraints
 0 < N < 100
 
 ## Example
-**Input**
-
+### Input
 C
 
-**Output**
-
+### Output
 0 0 00 0000 0 00
