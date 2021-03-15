@@ -47,25 +47,39 @@ The program must first read the initialization data from standard input. Then, *
 
 ## Input for one game turn
 A **single line** with 7 integers: **X**, **Y**, **hSpeed**, **vSpeed**, **fuel**, **rotate** and **power**
+
 **X**, **Y** are the coordinates of Mars Lander (in meters).
+
 **hSpeed** and vSpeed are the horizontal and vertical speed of Mars Lander (in m/s). These can be negative depending on the direction of Mars Lander.
+
 **fuel** is the remaining quantity of fuel in liters. When there is no more fuel, the power of thrusters falls to zero.
+
 **rotate** is the angle of rotation of Mars Lander expressed in degrees.
+
 **power** is the thrust power of the landing ship.
 
 ## Output for one game turn
 A **single line** with 2 integers: **rotate power** :
+
 **rotate** is the desired rotation angle for Mars Lander. Please note that for each turn the actual value of the angle is limited to the value of the previous turn +/- 15°. For the first level (htis level) should be zero (0).
+
 **power** is the desired thrust power. 0 = off. 4 = maximum power. Please note that for each turn the value of the actual power is limited to the value of the previous turn +/- 1.
 
 ## Constraints
 2 ≤ surfaceN < 30
+
 0 ≤ X < 7000
+
 0 ≤ Y < 3000
+
 -500 < hSpeed, vSpeed < 500
+
 0 ≤ fuel ≤ 2000
+
 -90 ≤ rotate ≤ 90
+
 0 ≤ power ≤ 4
+
 Response time per turn ≤ 100ms
 
 ## Example
