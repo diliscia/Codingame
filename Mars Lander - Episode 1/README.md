@@ -41,11 +41,11 @@ Tests and validators are only slightly different. **A program that passes a give
 ## Game Input
 The program must first read the initialization data from standard input. Then, **within an infinite loop**, the program must read the data from the standard input related to Mars Lander's current state and provide to the standard output the instructions to move Mars Lander.
 
-## Initialization input
+### Initialization input
 **Line 1:** the number **surfaceN** of points used to draw the surface of Mars.
 **Next surfaceN lines:** a couple of integers **landX landY** providing the coordinates of a ground point. By linking all the points together in a sequential fashion, you form the surface of Mars which is composed of several segments. For the first point, **landX** = **0** and for the last point, **landX** = **6999**
 
-## Input for one game turn
+### Input for one game turn
 A **single line** with 7 integers: **X**, **Y**, **hSpeed**, **vSpeed**, **fuel**, **rotate** and **power**
 
 **X**, **Y** are the coordinates of Mars Lander (in meters).
@@ -58,7 +58,7 @@ A **single line** with 7 integers: **X**, **Y**, **hSpeed**, **vSpeed**, **fuel*
 
 **power** is the thrust power of the landing ship.
 
-## Output for one game turn
+### Output for one game turn
 A **single line** with 2 integers: **rotate power** :
 
 **rotate** is the desired rotation angle for Mars Lander. Please note that for each turn the actual value of the angle is limited to the value of the previous turn +/- 15°. For the first level (htis level) should be zero (0).
