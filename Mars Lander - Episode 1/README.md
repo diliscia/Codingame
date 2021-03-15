@@ -59,9 +59,11 @@ A **single line** with 7 integers: **X**, **Y**, **hSpeed**, **vSpeed**, **fuel*
 **power** is the thrust power of the landing ship.
 
 ### Output for one game turn
-A **single line** with 2 integers: **rotate power** :
+A **single line** with 2 integers: **rotate power** 
 
-**rotate** is the desired rotation angle for Mars Lander. Please note that for each turn the actual value of the angle is limited to the value of the previous turn +/- 15°. For the first level (htis level) should be zero (0).
+Where:
+
+**rotate** is the desired rotation angle for Mars Lander. Please note that for each turn the actual value of the angle is limited to the value of the previous turn +/- 15°. For the first level (this level) should be zero (0).
 
 **power** is the desired thrust power. 0 = off. 4 = maximum power. Please note that for each turn the value of the actual power is limited to the value of the previous turn +/- 1.
 
