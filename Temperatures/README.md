@@ -29,4 +29,4 @@ I opted to take each temperature **t** and calculate the difference between the 
 
 For the case where the difference between two or more temperatures were the same I used an if statement were I kept only the positive temperature.
 
-I repeated all the process thru all the data and sent the **result** as output.
+I repeated all the process through all the data and sent the **result** as output.
