@@ -11,19 +11,19 @@ Your mission is to write a program that can display a line of text in ASCII art 
 
 ## Game Input
 
-**Input**
+### Input
 
-**Line 1:** the width L of a letter represented in ASCII art. All letters are the same width.
+**Line 1:** the width **L** of a letter represented in ASCII art. All letters are the same width.
 
-**Line 2:** the height H of a letter represented in ASCII art. All letters are the same height.
+**Line 2:** the height **H** of a letter represented in ASCII art. All letters are the same height.
 
-**Line 3:** The line of text T, composed of N ASCII characters.
+**Line 3:** The line of text **T**, composed of **N** ASCII characters.
 
-Following lines: the string of characters ABCDEFGHIJKLMNOPQRSTUVWXYZ? Represented in ASCII art.
+**Following lines:** the string of characters ABCDEFGHIJKLMNOPQRSTUVWXYZ? Represented in ASCII art.
 
-**Output**
+### Outpu
 
-The text T in ASCII art.
+The text **T** in ASCII art.
 
 The characters a to z are shown in ASCII art by their equivalent in upper case.
 
