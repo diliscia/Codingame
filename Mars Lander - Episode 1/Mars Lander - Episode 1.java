@@ -28,12 +28,8 @@ class Player {
 
             // Write an action using System.out.println()
             // To debug: System.err.println("Debug messages...");
-        if (Y > 150) {
-            if (vSpeed > 40) power = 2;
-            else if (vSpeed < -40) power = 4; 
-        }
-        else if (Y < 150) power = 4;            
-
+        if (vSpeed > -40) power = 0;
+        else power = 4; 
 
             // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
             System.out.println(0 + " " + power);
