@@ -9,16 +9,7 @@ the variable **lightX**: the X position of the light of power that Thor must rea
 the variable **lightY**: the Y position of the light of power that Thor must reach.
 the variable **initialTX**: the starting X position of Thor.
 the variable **initialTY**: the starting Y position of Thor.
-**At the end of the game turn**, you must output the direction in which you want Thor to go among:
-
-N (North)
-NE (North-East)
-E (East)
-SE (South-East)
-S (South)
-SW (South-West)
-W (West)
-NW (North-West)
+**At the end of the game turn**, you must output the direction in which you want Thor to go among: N (North), NE (North-East), E (East), SE (South-East), S (South), SW (South-West), W (West), NW (North-West)
 Each movement makes Thor move by 1 cell in the chosen direction.
  
 ## Initial phase
