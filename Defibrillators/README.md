@@ -16,7 +16,7 @@ These fields are separated by a semicolon (;).
 
 **Beware:** the decimal numbers use the comma (,) as decimal separator. Remember to turn the comma (,) into dot (.) if necessary in order to use the data in your program.
  
-# DISTANCE
+## DISTANCE
 The distance **d** between two points **A** and **B** will be calculated using the following formula:
 
 *Note: In this formula, the latitudes and longitudes are expressed in radians. 6371 corresponds to the radius of the earth in km.
