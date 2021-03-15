@@ -22,6 +22,7 @@ Must display 0 (zero) if the no temperatures are provided (**N** = 0). Otherwise
 1 -2 -8 4 5
 
 **Output**
+
 1
 
 ## Strategy
