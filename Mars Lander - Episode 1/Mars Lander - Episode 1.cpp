@@ -30,15 +30,18 @@ int main()
         int rotate; // the rotation angle in degrees (-90 to 90).
         int power; // the thrust power (0 to 4).
         cin >> X >> Y >> hSpeed >> vSpeed >> fuel >> rotate >> power; cin.ignore();
-        int thrust = 0;
+        
         // Write an action using cout. DON'T FORGET THE "<< endl"
         // To debug: cerr << "Debug messages..." << endl;
+        
         if (Y > 150) {
             if (vSpeed > 40) power = 2;
             else if (vSpeed < -40) power = 4; 
         }
         else if (Y < 150) power = 4;
+        
         // 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
+        
         cout << 0 << " " << power << endl;
     }
 }
