@@ -25,7 +25,7 @@ Do not forget to execute the tests from the "Test cases" panel.
 **Beware:** the tests given and the validators used to compute the score are slightly different in order to avoid hard coded solutions.
 ##	Game Input
 The program must first read the initialization data from the standard input, then, in an infinite loop, provides on the standard output the instructions to move Thor.
-# Initialization input
+## Initialization input
 **Line 1:** 4 integers **lightX lightY initialTX initialTY**. (lightX, lightY) indicates the position of the light. (initialTX, initialTY) indicates the initial position of Thor.
 ## Input for a game round
 **Line 1:** the number of remaining moves for Thor to reach the light of power: remainingTurns. You can ignore this data but you must read it.
