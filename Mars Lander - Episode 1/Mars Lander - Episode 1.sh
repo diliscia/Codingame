@@ -21,18 +21,10 @@ while true; do
     # Write an action using echo
     # To debug: echo "Debug messages..." >&2
 
-    if [ $Y -gt 150 ]
-    then
-        if [ $vSpeed -gt 40 ]
+    if [ $vSpeed -gt -40 ]
         then
-            power=2
-        elif [ $vSpeed -le -40 ]
-        then
-            power=4
-        fi    
-    elif [ $Y -le -40 ]
-    then 
-        power=4
+            power=0
+    else power=4
     fi
 
     # 2 integers: rotate power. rotate is the desired rotation angle (should be 0 for level 1), power is the desired thrust power (0 to 4).
