@@ -11,15 +11,12 @@ the variable **initialTX**: the starting X position of Thor.
 the variable **initialTY**: the starting Y position of Thor.
 **At the end of the game turn**, you must output the direction in which you want Thor to go among: N (North), NE (North-East), E (East), SE (South-East), S (South), SW (South-West), W (West), NW (North-West)
 Each movement makes Thor move by 1 cell in the chosen direction.
- 
-## Initial phase
+### Initial phase
 Thor starts on the map at position (3, 6). The light is at position (3, 8).
-
-## Round 1
+### Round 1
 Action S: Thor moves towards south.
 New position is (3, 7).
-
-## Round 2
+### Round 2
 Action S: Thor moves towards south.
 New position is (3, 8).
 
