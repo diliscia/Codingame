@@ -21,6 +21,7 @@ The difference D between the two closest strengths. D is an integer greater than
 ## Constraints
 
 1 < N  < 100000
+
 0 < Pi ≤ 10000000
 
 ## Example
