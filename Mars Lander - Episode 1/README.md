@@ -70,30 +70,45 @@ Response time per turn ≤ 100ms
 
 ## Example
 **Initialization input**
+
 6	(surfaceN) Surface made of 6 points
+
 0 1500	(landX landY)
+
 1000 2000	(landX landY)
+
 2000 500	(landX landY) Start of flat ground
+
 3500 500	(landX landY) End of flat ground
+
 5000 1500	(landX landY)
+
 6999 1000	(landX landY)
+
 No output expected
+
 You can ignore this but you need to read the values.
 
 **Input for turn 1**
+
 2500 2500 0 0 500 0 0 	(X Y hSpeed vSpeed fuel rotate power)
 
 **Output for turn 1**
+
 0 3
 
 **Input for turn 2**
+
 2500 2499 0 -3 499 0 1 	(X Y hSpeed vSpeed fuel rotate power)
 
 **Output for turn 2**
+
 0 3
 
 **Input for turn 3**
+
 2500 2495 0 -4 497 0 2 	(X Y hSpeed vSpeed fuel rotate power)
 
 **Output for turn 3**
+
 0 2
