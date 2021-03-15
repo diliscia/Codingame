@@ -39,7 +39,7 @@ A **single line** providing the move to be made: **N NE E SE S SW W** or **NW**
 Response time for a game round ≤ 100ms
 
 ## Strategy
-The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the 4 variables **lightX lightY initialTX initialTY** and added a **remainingTurns** one that counts the maximum number of iterations you have to reach the goal. 
+The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the 4 variables: **lightX**, **lightY**, **initialTX**, **initialTY** and added a **remainingTurns** one that counts the maximum number of iterations you have to reach the goal. 
 
 I started using an if statement to asure the valiues of the variables were within the constraints.
 
@@ -47,6 +47,6 @@ Then, to solve the problem, I opted to calculate the distance from the initial p
 
 Then, there were the combinations of the values of **distX** and **distY** that gave the information if Thor needed to go North-East, South-East, South-West or North-West.
 
-The program output for each iteration was a single line providing the movement to made, and while doing that updated the value of the variables **distX** and **distY**, adding (if going North or West) or substracting (if going South of East) the number of steps taken.
+The program output for each iteration was a single line providing the movement to made, and while doing that updated the value of the variables **distX** and **distY**, adding (if going North or West) or substracting (if going South of East) the number of steps taken. The program substracts automatically one to **remainingTurns** variable. 
 
 I repeated all the process through all the iterations sending the correponding text as output until Thor reached the Light of Power.
