@@ -3,6 +3,7 @@
 The purpose is to analyze records of temperature and to find the closest to zero.
 
 ![](temperature.png)
+
 **Sample temperatures** Here, -1 is the closest to 0.
 
 ##	Rules
