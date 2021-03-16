@@ -53,7 +53,7 @@ A **single line** providing the move to be made: **N NE E SE S SW W** or **NW**
 
 Response time for a game round ≤ 100ms
 
-## Strategy
+# Strategy
 The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the 4 variables: **lightX**, **lightY**, **initialTX**, **initialTY** and added a **remainingTurns** one that counts the maximum number of iterations you have to reach the goal. 
 
 I started using an if statement to asure the valiues of the variables were within the constraints.
