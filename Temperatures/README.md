@@ -25,7 +25,7 @@ Must display 0 (zero) if the no temperatures are provided (**N** = 0). Otherwise
 
 1
 
-## Strategy
+# Strategy
 
 The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the **N** variable and depending of the language has the input data in strings, arrays or vectors to store the input data in by a for cycle asigns each temperature to a **t** variable.
 
