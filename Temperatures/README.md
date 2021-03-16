@@ -1,6 +1,10 @@
 # Temperatures
 ## The Goal
 The purpose is to analyze records of temperature and to find the closest to zero.
+
+![](temperature.png)
+**Sample temperatures** Here, -1 is the closest to 0.
+
 ##	Rules
 You have to write a program which output is the temperature closest to 0 in the input data. If there are two numbers equally close to zero you have to choose the positive integer  closest to zero (example, if the temperatures are -5 and 5, then display 5).
 ## Game Input
