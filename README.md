@@ -11,7 +11,7 @@ The Puzzles I've done so far are:
 
 **Name** / Languages Solved 
 
-**ASCII Art** / C++, Python
+**ASCII Art** / C++, Python, Java
 
 **Chuck Norris** / C++, Python 
 
