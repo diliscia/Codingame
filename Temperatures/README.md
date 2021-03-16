@@ -12,7 +12,7 @@ You have to write a program which output is the temperature closest to 0 in the 
 The program have to read the data from the input and write the result on the output.
 ### Input
 **Line 1: N**: number of temperatures to analyze
-**Line 2: A**: string of **N** temperatures as integers (from -273 to 5526)
+**Line 2: A string of **N** temperatures as integers (from -273 to 5526)
 
 ## #Output
 Must display 0 (zero) if the no temperatures are provided (**N** = 0). Otherwise, display the temperature that is closest to 0.
