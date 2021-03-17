@@ -34,8 +34,8 @@ Must display 0 (zero) if the no temperatures are provided (**N** = 0). Otherwise
 
 The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the **N** variable and depending of the language has the input data in strings, arrays or vectors to store the input data in a for cycle asaigning each temperature to a **t** variable.
 
-I opted to take each temperature **t** and calculate the difference between the temperature and the reference (zero). For that I used two variables **dif** and **dif2**. **dif** started as the maximum (5526) and **dif2** started as zero (0). I used an if statement assigning the absolute value of the temperature to **dif2** and then compared it to **dif**, if **dif2** was inferior to **dif** I stored the lowest difference and its temperature in a variable **result**.
+To solve the puzzle it was opted to take each temperature **t** and calculate the difference between the temperature and the reference (zero). For that two variables were used, **dif** and **dif2**. **dif** started as the maximum temperature possible in the range (5526) and **dif2** started as zero (0). An  if statement was used assigning the absolute value of the temperature to **dif2** and then it was compared to **dif**, if **dif2** was inferior to **dif** the lowest difference was stored and the temperature **t** was stored in a variable **result**.
 
-For the case where the difference between two or more temperatures were the same I used an if statement were I kept only the positive temperature.
+For the case where the difference between two or more temperatures were the same an if statement was used were only the positive temperature **t** was kept.
 
-I repeated all the process through all the data and sent the **result** as output.
+The comparation process was repeated through all the data set and the **result** was sent as output.
