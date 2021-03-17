@@ -65,4 +65,4 @@ text/html
 
 The auto-generated code below aims at helping you parse the standard input according to the problem statement.
 
-![](mime_type.png)
+![](mime_type_co.png)
