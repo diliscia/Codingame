@@ -43,6 +43,7 @@ The program must first read the initialization data from standard input. Then, *
 
 ### Initialization input
 **Line 1:** the number **surfaceN** of points used to draw the surface of Mars.
+
 **Next surfaceN lines:** a couple of integers **landX landY** providing the coordinates of a ground point. By linking all the points together in a sequential fashion, you form the surface of Mars which is composed of several segments. For the first point, **landX** = **0** and for the last point, **landX** = **6999**
 
 ### Input for one game turn
