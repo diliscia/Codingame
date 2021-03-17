@@ -39,3 +39,5 @@ To solve the puzzle it was opted to take each temperature **t** and calculate th
 For the case where the difference between two or more temperatures were the same an if statement was used were only the positive temperature **t** was kept.
 
 The comparation process was repeated through all the data set and the **result** was sent as output.
+
+![](temperatures_co.png)
