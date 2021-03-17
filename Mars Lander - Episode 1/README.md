@@ -130,7 +130,7 @@ You can ignore this but you need to read the values.
 0 2
 
 # Strategy
-
+![](mars_lander_e1.png)
 The auto-generated code helps you by parsing the standard input according to the problem statement. It contains a for loop that draws the surface of Mars and a while loop (game loop) where the variables **X**, **Y**, **hSpeed**, **vSpeed**, **fuel**, **rotate** and **power** are defined and initialized (read) each iteration by the console.
 
 First I did a run of the code as it was. By default it has a power of 3 from the start of the falling, but with that power the Mars Lander begins to descend slowly but crashes at 100m at a vertical speed of 134. This means that a **power** of 3 even from the start was not enough to desaccelerate it to arrive to an acceptable **vSpeed** lower or equal to 40. The next **power** is 4 but to start directly with a **power** of 4 does not allows the Mars Lander to descend, because "a thrust power of 4 in an almost vertical position is needed to compensate for the gravity on Mars." and the Mars Lander will practically stay at the same position until runs out of fuel. We need to let the Mars Lander to gain some velocity in the descending and then keep it still with power at full throtle to land at an acceptable **vSpped**.
@@ -140,3 +140,5 @@ In order to solve the problem I opted to use an if-else statement. I used the if
 For this level **rotate** was fixed to zero (0).
 
 The process was repeated inside the while loop sending the output **rotate power** until the Mars Lander landed safely.
+
+![](mars_lander_e1_co.png)
