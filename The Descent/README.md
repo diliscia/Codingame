@@ -20,8 +20,11 @@ Must be a single line with only one integer number that represents the index of 
 Response time per turn ≤ 100ms
 
 # Strategy
+![](the_descent.png)
 The auto-generated code helps you placing a while loop representing the game where each iteration represents a turn of the game. Where you are given inputs (**mountainH** the height of the mountain) and where you have to print an output (the index of the mountain to fire on). The inputs are given automatically (stored in strings, arrays or vectors depedning of the language) within a for loop updated according to your last actions.
 
 I opted to use an if statement to compare each mountain's height **mountainH** in each iteration of the loop and select the highest one. For that i used two variables **max** (the height of the highest mountain) and **imax** (the index of the highest). Both started as zero and from the first iteration I compared the value of **mountainH** to **max**, if the value of **mountainH** was bigger than **max** I asigned the value of **mountainH** to **max** and stored the index in **imax**.    
 
 The process of comparation is repeated through all the data and sent **imax** as output.
+
+![](the_descent_co.png)
