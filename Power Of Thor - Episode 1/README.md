@@ -59,6 +59,7 @@ A **single line** providing the move to be made: **N NE E SE S SW W** or **NW**
 Response time for a game round ≤ 100ms
 
 # Strategy
+![](power_of_thor_e1.png)
 The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the 4 variables: **lightX**, **lightY**, **initialTX**, **initialTY** and added a **remainingTurns** one that counts the maximum number of iterations you have to reach the goal. 
 
 I started using an if statement to asure the valiues of the variables were within the constraints.
@@ -70,3 +71,5 @@ Then, there were the combinations of the values of **distX** and **distY** that 
 The code output for each iteration was a single line providing the move to be made and at the same time updated the value of the variables **distX** and **distY**, adding (if going North or West) or substracting (if going South of East) the number of steps taken. The program substracts automatically one to the **remainingTurns** variable. 
 
 I repeated all the process through all the iterations sending the correponding text as output until Thor reached the Light of Power.
+
+![](power_of_thor_e1_co.png)
