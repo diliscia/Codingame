@@ -48,3 +48,5 @@ The auto-generated code helps you by parsing the standard input according to the
 In order to solve the puzzle, I decided to create a variable **ASCIIALFA** to save the ASCII alphabet. This variable is a vector of strings that has a size equal to the heighgt of the letters represented in ASCII art. Each element of the vector correspond to one of the strings/lines that forms the ASCII alfabet. Also, I created a string varible **ALFA** which consists of the same string of characters (the alphabet) but represented in regular letters.
 
 The purpose is that I will compare each letter from the **T** text to **ALFA** and obtain the index in where it is. With this value and the width **L** is posible to obtain  the ASCII art representation of the letter by extracting from **ASCIIALFA** the characters that correspond to the letter line by line. If the character in **T** is not in **ALFA** it is substituted by the question mark.
+
+![](ascii_art_co.jpg)
