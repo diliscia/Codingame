@@ -37,4 +37,8 @@ The difference D between the two closest strengths. D is an integer greater than
 
 1
 
+# Strategy
+
+The  auto-generated code below aims at helping you parse the standard input according to the problem statement.
+
 ![](horse-racing_duals_co.png)
