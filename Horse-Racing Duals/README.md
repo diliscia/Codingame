@@ -10,7 +10,7 @@ Write a program which, using a given number of strengths, identifies the two clo
 
 ### Input
 
-**Line 1:** Number N of horses
+**Line 1:** Number **N** of horses
 
 **The N following lines:** the strength Pi of each horse. Pi is an integer.
 
@@ -41,6 +41,6 @@ The difference **D** between the two closest strengths. **D** is an integer grea
 
 The auto-generated code helps you parse the standard input according to the problem statement. It has already defined the **N** variable and reads it from the input, then within a for loop it defines the variable **Pi** and reads it from the input one by one.
 
-In order to solve the puzzle it was opted to define an array or a vector (dependinng of the language) named **P** where all the **Pi**s were stored. Then they were all increasing sorted through a programmed or an already default sorting method. Using an if statement the difference between two consecutive numbers **D** was calculated and compared to a **minDif** variable, that was defined and initialized as the maximum popsible value **10000000**. If **D** was inferior to the stored **minDif** it was updated with a new minumum value equals to **D**. After going through all the **N** numbers in the for loop the **minDif** value was sent as an output.
+In order to solve the puzzle it was opted to define an array or a vector (dependinng of the language) named **P** where all the **Pi**s were stored. Then they were all sorted in ascending order through a programmed or an already default sorting method. Using an if statement the difference between two consecutive numbers **D** was calculated and compared to a **minDif** variable, that was defined and initialized as the maximum popsible value **10000000**. If **D** was inferior to the stored **minDif** the later was updated with a new minumum value equals to **D**. The process was through all the **N** numbers in **P** using the for loop. At the end the **minDif** value was sent as an output.
 
 ![](horse-racing_duals_co.png)
