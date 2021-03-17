@@ -68,19 +68,20 @@ Where:
 **power** is the desired thrust power. 0 = off. 4 = maximum power. Please note that for each turn the value of the actual power is limited to the value of the previous turn +/- 1.
 
 ## Constraints
-2 ≤ surfaceN < 30
 
-0 ≤ X < 7000
+2 ≤ **surfaceN** < 30
 
-0 ≤ Y < 3000
+0 ≤ **X** < 7000
 
--500 < hSpeed, vSpeed < 500
+0 ≤ **Y** < 3000
 
-0 ≤ fuel ≤ 2000
+-500 < **hSpeed**, **vSpeed** < 500
 
--90 ≤ rotate ≤ 90
+0 ≤ **fuel** ≤ 2000
 
-0 ≤ power ≤ 4
+-90 ≤ **rotate** ≤ 90
+
+0 ≤ **power** ≤ 4
 
 Response time per turn ≤ 100ms
 
