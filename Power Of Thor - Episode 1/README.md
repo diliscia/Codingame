@@ -62,15 +62,15 @@ Response time for a game round ≤ 100ms
 
 The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the 4 variables: **lightX**, **lightY**, **initialTX**, **initialTY** and added a **remainingTurns** one that counts the maximum number of iterations you have to reach the goal. 
 
-I started using an if statement to asure the valiues of the variables were within the constraints.
+First of all, an if statement was used to asure the values of the variables were within the constraints.
 
-Then, to solve the problem, I opted to calculate the distance from the initial position of Thor to the position of the Light of Power and then use if statements to indicate the direction that Thor should take. For that I started by defining two variables **distX** and **distY** that will give me information about which direction to take. If **distX** was positive Thor must go East , if negative West. If **distY** was positive Thor must go North, if negative South.
+Then, to solve the problem, it was opted to calculate the distance from the initial position of Thor to the position of the Light of Power and then use if statements to indicate the direction that Thor should take. Two variables **distX** and **distY** were defined, so that they will give information about which direction should Thor take. If **distX** was positive Thor must go East, if negative West. If **distY** was positive Thor must go North, if negative South.
 
-Then, there were the combinations of the values of **distX** and **distY** that gave the information if Thor needed to go North-East, South-East, South-West or North-West. Foro example if **distX** an **distY** were both positives that meant that Thor must go North-East (**NE**) and so on.  
+Then, there were the combinations of the values of **distX** and **distY** that gave information if Thor needed to go in diagonal, that is North-East, South-East, South-West or North-West. For example if **distX** an **distY** were both positives that meant that Thor must go North-East (**NE**) and so on.  
 
-The code output for each iteration was a single line providing the move to be made and at the same time updated the value of the variables **distX** and **distY**, adding (if going North or West) or substracting (if going South of East) the number of steps taken. The program substracts automatically one to the **remainingTurns** variable. 
+The code output for each iteration was a single line providing the move to be made and at the same time the values of the variables **distX** and **distY** were updated by adding (if going North or West) or substracting (if going South of East) 1, that is the number of steps taken. From the auto-generated code the program substracted automatically one to the **remainingTurns** variable. 
 
-I repeated all the process through all the iterations sending the correponding text as output until Thor reached the Light of Power.
+The process was repeated inside the while loop sending the correponding text as output until Thor reached the Light of Power, exiting the while loop.
 
 ![](power_of_thor_e1_co.png)
 
