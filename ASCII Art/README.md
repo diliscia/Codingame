@@ -49,4 +49,4 @@ In order to solve the puzzle, I decided to create a variable **ASCIIALFA** to sa
 
 The purpose is that I will compare each letter from the **T** text to **ALFA** and obtain the index in where it is. With this value and the width **L** is posible to obtain  the ASCII art representation of the letter by extracting from **ASCIIALFA** the characters that correspond to the letter line by line. If the character in **T** is not in **ALFA** it is substituted by the question mark.
 
-![](ascii_art_co.jpg)
+![](ascii_art_co.png)
