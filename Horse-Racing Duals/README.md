@@ -39,6 +39,6 @@ The difference D between the two closest strengths. D is an integer greater than
 
 # Strategy
 
-The auto-generated code helps you by parsing the standard input according to the problem statement.
+The auto-generated code helps you parse the standard input according to the problem statement.
 
 ![](horse-racing_duals_co.png)
