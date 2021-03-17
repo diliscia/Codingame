@@ -36,3 +36,5 @@ The difference D between the two closest strengths. D is an integer greater than
 **Output**
 
 1
+
+![](horse-racing_duals_co.png)
