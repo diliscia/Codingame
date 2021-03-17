@@ -142,3 +142,5 @@ For this level **rotate** was fixed to zero (0).
 The process was repeated inside the while loop sending the output **rotate power** until the Mars Lander landed safely.
 
 ![](mars_lander_e1_co.png)
+
+![](mars_lander_e1.png)
