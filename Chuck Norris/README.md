@@ -27,9 +27,13 @@ So C is coded as:**0 0 00 0000 0 00**
 Second example, we want to encode the message CC (i.e. the 14 bits **10000111000011**) :
 
 **0 0** (one single **1**)
-**00 0000 ** (four **0**)
-**0 000** (three **1**)
+
 **00 0000** (four **0**)
+
+**0 000** (three **1**)
+
+**00 0000** (four **0**)
+
 **0 00** (two **1**)
 
 So CC is coded as: **0 0 00 0000 0 000 00 0000 0 00**
