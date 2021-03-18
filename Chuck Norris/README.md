@@ -56,6 +56,12 @@ C
 
 # Strategy
 
-The auto-generated code helps you parse the standard input according to the problem statement. It has already defined the **message** variable and reads it from the input.
+The auto-generated code helps you parse the standard input according to the problem statement. It has already defined the **message** variable as a string and reads it from the input.
 
-![](chuck-norris_co.png)
+To solve the puzzle the message is first translated character by character to binary using an already built-in method/function and stored in a variable **char_binary**. The length of each character in binary (**char_binary**) must be 7 digits long. If it is not 7 digits long zeros must be added to the begining until it reaches the length of 7 digits. Then each **char_binary** is added one after another to a variable **in_binary** that contains all the message translated to binary.
+
+This is done using a for loop to go through each character of the message (**message**), then translate it into binary (**char_binary**), then use an if statement to verify its length and correct it (add zeros) and finally add the translated character (**char_binary**) to the binary translated message (**in_binary**).
+
+Then the translation to *unary* is done.
+
+![](chuck_norris_co.png)
