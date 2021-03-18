@@ -72,6 +72,6 @@ Before starting the translation to *unary* an if statement if used to verify tha
 
 An else if statement is used for the rest of the digits in **in_binary**. Inside this if statement a set of 4 if statements are used to verify the values of both the current digit and the previous digit **in_binary**. If the current digit value is 1 and the previous digit value is also 1 then zero (**0**) is added to **answer**. Else if the current digit value is 1 and the previous digit value is 0  then space, zero, space, zero ( **0 0**) is added to **answer**. Else if the current digit value is 0 and the previous digit value is 1  then space, zero, zero, space, zero ( **00 0**) is added to **answer**. And finaly, else if the current digit value is 0 and the previous digit value is 0 then zero (**0**) is added to **answer**.
 
-The for loops repeats going through all the digits in **in_binary** and then **answer** is sent as output.
+The for loop repeats going through all the digits in **in_binary** and then **answer** is sent as output.
 
 ![](chuck_norris_co.png)
