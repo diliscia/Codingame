@@ -1,6 +1,6 @@
 # Chuck Norris
 ## The Goal
-Binary with 0 and 1 is good, but binary with only 0, or almost, is even better! Originally, this is a concept designed by Chuck Norris to send so called unary messages.
+Binary with 0 and 1 is good, but binary with only 0, or almost, is even better! Originally, this is a concept designed by Chuck Norris to send so called *unary* messages.
 
 Write a program that takes an incoming message as input and displays as output the message encoded using Chuck Norris’ method.
 
@@ -68,9 +68,10 @@ This is done using a for loop to go through each character of the message (**mes
 
 **Translation int *unary***
 
-Before starting the translation to *unary* an if statement if used to verify that the length of **in_binary** is greater than 1. Then a for lopp is used to go through each digit of **in_binary**. Inside the for loop a set of nested if statements are used to perform the operations of translating. The first if statement is a statement for  the particular case of the first digit, this if statement verifies if the digit is the first one in **in_binary**. If true, another if statement is used to compare if the value of the digit is 1. If trtue, the begining of the final message (**answer**) is **0 0**, else if false (this means, if is 0) the begining of **answer** is **00 0**.
+Before starting the translation to *unary* an if statement if used to verify that the length of **in_binary** is greater than 1. Then a for lopp is used to go through each digit of **in_binary**. Inside the for loop a set of nested if statements are used to perform the operations of translating. The first if statement is a statement for  the particular case of the first digit, this if statement verifies if the digit is the first one in **in_binary**. If true, another if statement is used to compare if the value of the digit is 1. If trtue, the begining of the final message (**answer**) is zero, space, zero (**0 0**), else if false (this means, if the first digit in **in_binary** is 0) the begining of **answer** is zero, zero, space, zero (**00 0**).
 
-An else if statement is used for the rest of the digits in **in_binary**. Inside this statement a set of 4 if statements are used to verifythe values of the digit current digit and the previous digitin **in_binary**. If true  
+An else if statement is used for the rest of the digits in **in_binary**. Inside this statement a set of 4 if statements are used to verify the values of both the current digit  and the previous digit **in_binary**. If the current digit value is 1 and the previous digit value is also 1 then zero (**0**) is added to **answer**. If the current digit value is 1 and the previous digit value is 0  then space, zero, space, zero (** 0 0**) is added to **answer**. If the current digit value is 0 and the previous digit value is 1  then space, zero, zero, space, zero (** 00 0**) is added to **answer**. And finaly if the current digit value is 0 and the previous digit value is 0 then zero (**0 0**) is added to **answer**.
 
+The for loops repeats until all the digits in **in_binary** are verified and **answer** is sent as output.
 
 ![](chuck_norris_co.png)
