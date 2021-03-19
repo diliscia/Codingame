@@ -63,6 +63,6 @@ text/html
 
 # Strategy
 
-The auto-generated code below aims at helping you parse the standard input according to the problem statement.
+The auto-generated code below aims at helping you parse the standard input according to the problem statement. It starts predefining 5 variables **N**, **Q**, **EXT**, **MT** and **FNAME** and reading them from the input. 
 
 ![](mime_type_co.png)
