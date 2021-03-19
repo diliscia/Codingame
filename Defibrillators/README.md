@@ -18,7 +18,7 @@ These fields are separated by a semicolon (;).
  
 ## DISTANCE
 The distance **d** between two points **A** and **B** will be calculated using the following formula:
-
+![](dist1_1.gif)
 *Note: In this formula, the latitudes and longitudes are expressed in radians. 6371 corresponds to the radius of the earth in km.
 
 The program will display the name of the defibrillator located the closest to the user’s position. This position is given as input to the program.
@@ -31,14 +31,14 @@ The program will display the name of the defibrillator located the closest to th
 
 **Line 3:** The number N of defibrillators located in the streets of Montpellier
 
-**N** next lines: a description of each defibrillator
+**N** **next lines:** a description of each defibrillator
 
 ### Output
 The name of the defibrillator located the closest to the user’s position.
 
 ## Constraints
 
-0 < N < 10000
+0 < **N** < 10000
 
 ## Example
 
@@ -56,6 +56,12 @@ The name of the defibrillator located the closest to the user’s position.
 
 3;Zoo de Lunaret;50 avenue Agropolis 34090 Mtp;;3,87388031141133;43,6395872778854
 
-## Output
+**Output**
 
 Maison de la Prevention Sante
+
+# Strategy
+
+The auto-generated code helps you parse the standard input according to the problem statement.
+
+![](defibrilators_co.png)
