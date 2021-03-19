@@ -21,7 +21,7 @@ The distance **d** between two points **A** and **B** will be calculated using t
 
 ![](dist1_1.gif)
 
-*Note: In this formula, the latitudes and longitudes are expressed in radians. 6371 corresponds to the radius of the earth in km.
+**Note: In this formula, the latitudes and longitudes are expressed in radians. 6371 corresponds to the radius of the earth in km.*
 
 The program will display the name of the defibrillator located the closest to the user’s position. This position is given as input to the program.
 
