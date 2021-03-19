@@ -64,6 +64,6 @@ Maison de la Prevention Sante
 
 # Strategy
 
-The auto-generated code helps you parse the standard input according to the problem statement.
+The auto-generated code helps you parse the standard input according to the problem statement. It starts by predefining the variables **LON**, **LAT**, **N** and **DEFIB** and then reading them from the input.
 
 ![](defibrilators_co.png)
