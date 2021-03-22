@@ -60,11 +60,11 @@ Response time for a game round ≤ 100ms
 
 # Strategy
 
-The auto-generated code helps you by parsing the standard input according to the problem statement. It has already defined the 4 variables: **lightX**, **lightY**, **initialTX**, **initialTY** and added a **remainingTurns** one that counts the maximum number of iterations you have to reach the goal. 
+The auto-generated code helps you parse the standard input according to the problem statement. It has already defined the variables: **lightX**, **lightY**, **initialTX**, **initialTY** and **remainingTurns** (the one that counts the maximum number of iterations you have to reach the goal). 
 
 First of all, an if statement was used to asure the values of the variables were within the constraints.
 
-Then, to solve the problem, it was opted to calculate the distance from the initial position of Thor to the position of the Light of Power and then use if statements to indicate the direction that Thor should take. Two variables **distX** and **distY** were defined, so that they will give information about which direction should Thor take. If **distX** was positive Thor must go East, if negative West. If **distY** was positive Thor must go North, if negative South.
+Then, in order to solve the puzzle it was opted to calculate the distance from the initial position of Thor to the position of the Light of Power and with this information use if statements to indicate the direction that Thor should take. Two variables **distX** and **distY** were defined, so that they will give information about which direction should Thor take. If **distX** was positive Thor must go East, if negative West. If **distY** was positive Thor must go North, if negative South.
 
 Then, there were the combinations of the values of **distX** and **distY** that gave information if Thor needed to go in diagonal, that is North-East, South-East, South-West or North-West. For example if **distX** an **distY** were both positives that meant that Thor must go North-East (**NE**) and so on.  
 
