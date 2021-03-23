@@ -25,7 +25,7 @@ Your mission is to write a program that can display a line of text in ASCII art 
 
 **Following lines:** the string of characters ABCDEFGHIJKLMNOPQRSTUVWXYZ? Represented in ASCII art.
 
-### Outpu
+### Output
 
 The text **T** in ASCII art.
 
@@ -45,8 +45,8 @@ The characters that are not in the intervals [a-z] or [A-Z] will be shown as a q
 
 The auto-generated code helps you by parsing the standard input according to the problem statement. It already has already defined the variables **L**, **H** the text **T**  and depending of the language some lines of code to register "the string of characters ABCDEFGHIJKLMNOPQRSTUVWXYZ? Represented in ASCII art."
 
-In order to solve the puzzle, I decided to create a variable **ASCIIALFA** to save the ASCII alphabet. This variable is a vector of strings that has a size equal to the heighgt of the letters represented in ASCII art. Each element of the vector correspond to one of the strings/lines that forms the ASCII alfabet. Also, I created a string varible **ALFA** which consists of the same string of characters (the alphabet) but represented in regular letters.
+In order to solve the puzzle a variable **ASCIIALFA** was created to save the string of characters (alphabet plus quesiton mark) represented in ASCII art from the input. This variable is a vector of strings that has a size equal to the height of the letters represented in ASCII art. Each element of the vector correspond to one of the strings/lines that forms the ASCII alfabet. Also, a string variable **ALFA** was created which consists of the same string of characters (the alphabet plus the question mark) but represented in normal characters.
 
-The purpose is that I will compare each letter from the **T** text to **ALFA** and obtain the index in where it is. With this value and the width **L** is posible to obtain  the ASCII art representation of the letter by extracting from **ASCIIALFA** the characters that correspond to the letter line by line. If the character in **T** is not in **ALFA** it is substituted by the question mark.
+The purpose was to compare each character from the **T** text to the **ALFA** variable to obtain the index (**idx**) in where it is located in the **ALFA**. With the value of the index **idx** and the width **L** it was posible to obtain  the ASCII art representation of the character in the text **T** by extracting from **ASCIIALFA** the characters that correspond to the letter line by line. The ASCCI art representation of each character from the text **T** was found fro the **idx*L** position to the **idx*L+L** position in each of the **H** lines of the **ASCIIALFA**. If the character in **T** is not in **ALFA** it is substituted by the question mark.
 
 ![](ascii_art_co.png)
