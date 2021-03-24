@@ -19,6 +19,7 @@ These fields are separated by a semicolon (;).
 ### DISTANCE
 The distance **d** between two points **A** and **B** will be calculated using the following formula:
 
+
 ![](dist1_1.gif)
 
 **Note: In this formula, the latitudes and longitudes are expressed in radians. 6371 corresponds to the radius of the earth in km.*
@@ -64,6 +65,9 @@ Maison de la Prevention Sante
 
 # Strategy
 
-The auto-generated code helps you parse the standard input according to the problem statement. It starts by predefining the variables **LON**, **LAT**, **N** and **DEFIB** and then reading them from the input.
+The auto-generated code helps you parse the standard input according to the problem statement. It starts by predefining the variables **LON**, **LAT** and **N** and reading them form the input. Then in a for loop defines the **DEFIB** variable and reads the **N** lines of the description of the defibrilators from the input.
+
+In order to solve the puzzle the first task is to replpace the comma (,) as decimal separator by a dot (.). Depending ofn the language a series of methods/functions are used.
+
 
 ![](defibrilators_co.png)
