@@ -41,3 +41,7 @@ For the case where the difference between two or more temperatures were the same
 The comparation process was repeated through all the data set and the **result** was sent as output.
 
 ![](temperatures_co.png)
+
+# Flowchart
+
+![](temperatures_flow.png)
