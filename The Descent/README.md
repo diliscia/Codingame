@@ -33,4 +33,4 @@ The process of comparation was repeated through all the data set and **imax** wa
 
 # Flowchart
 
-<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://lucid.app/documents/embeddedchart/7b73ff15-58df-4bd7-acd6-a6938ec94698" id="_Wnpunq7kgiM"></iframe></div>
+![](the_descent_flow.png)
