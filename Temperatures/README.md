@@ -44,4 +44,4 @@ The comparation process was repeated through all the data set and the **result**
 
 # Flowchart
 
-![](temperatures_flow.png)
+![](temperatures_flow2.png)
