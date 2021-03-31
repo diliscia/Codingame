@@ -33,4 +33,4 @@ The process of comparation was repeated through all the data set and **imax** wa
 
 # Flowchart
 
-![](the_descent_flow.png)
+![](the_descent_flow2.png)
