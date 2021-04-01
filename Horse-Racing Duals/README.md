@@ -47,4 +47,4 @@ In order to solve the puzzle it was opted to define an array or a vector (depend
 
 # Flowchart
 
-![](horse-racing_duals_flow.png)
+![](horse-racing_duals_flow2.png)
