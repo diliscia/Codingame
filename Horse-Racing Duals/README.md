@@ -44,3 +44,7 @@ The auto-generated code helps you parse the standard input according to the prob
 In order to solve the puzzle it was opted to define an array or a vector (dependinng of the language) named **P** where all the **Pi**s were stored. Then they were all sorted in ascending order through a programmed or an already built-in sorting method/function. Using an if statement the difference between two consecutive numbers **D** was calculated and compared to a **minDif** variable, that was defined and initialized as the maximum popsible value **10000000**. If **D** was inferior to the stored **minDif** the later was updated with a new minumum value equals to **D**. The process was through all the **N** numbers in **P** using the for loop. At the end the **minDif** value was sent as an output.
 
 ![](horse-racing_duals_co.png)
+
+# Flowchart
+
+![](horse-racing_duals_flow.png)
