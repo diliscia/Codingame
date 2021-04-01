@@ -146,3 +146,7 @@ The process was repeated inside the while loop sending the output **rotate power
 ![](mars_lander_e1_co.png)
 
 ![](mars_lander_e1.png)
+
+# Flowchart
+
+![](mars_lander_e1_flow2.png)
