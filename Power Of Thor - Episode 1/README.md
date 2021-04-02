@@ -75,3 +75,7 @@ The process was repeated inside the while loop sending the correponding text as 
 ![](power_of_thor_e1_co.png)
 
 ![](power_of_thor_e1.png)
+
+# Flowchart
+
+![](power_of_thor_e1_flow2.png)
