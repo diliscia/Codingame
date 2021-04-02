@@ -43,15 +43,15 @@ while True:
                 print('SE')
                 dist_x = dist_x - 1
                 dist_y = dist_y - 1
-        if (dist_x < 0 and dist_y > 0):   # Angle line moving SouthWest
+            if (dist_x < 0 and dist_y > 0):   # Angle line moving SouthWest
                 print('SW')
                 dist_x = dist_x + 1
                 dist_y = dist_y - 1
-        if (dist_x > 0 and dist_y < 0):   # Angle line moving NorthEast
+            if (dist_x > 0 and dist_y < 0):   # Angle line moving NorthEast
                 print('NE')
                 dist_x = dist_x - 1
                 dist_y = dist_y + 1
-        if (dist_x < 0 and dist_y < 0):   # Angle line moving NorthWest
+            if (dist_x < 0 and dist_y < 0):   # Angle line moving NorthWest
                 print('NW')
                 dist_x = dist_x + 1
                 dist_y = dist_y + 1           
