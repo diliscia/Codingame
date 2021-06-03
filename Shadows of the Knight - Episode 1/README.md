@@ -29,17 +29,20 @@ The tests provided are similar to the validation tests used to compute the final
 ## 	Game Input
 The program must first read the initialization data from standard input. Then, within an infinite loop, read the device data from the standard input and provide to the standard output the next movement instruction.
 
-## Initialization input
+**Initialization input**
+
 **Line 1 :** 2 integers W H. The (**W**, **H**) couple represents the width and height of the building as a number of windows.
 
 **Line 2 :** 1 integer **N**, which represents the number of jumps Batman can make before the bombs go off.
 
 **Line 3 :** 2 integers **X0 Y0**, representing the starting position of Batman.
 
-## Input for one game turn
+**Input for one game turn**
+
 The direction indicating where the bomb is.
 
-## Output for one game turn
+**Output for one game turn**
+
 A single line with 2 integers **X Y** separated by a space character. (**X**, **Y**) represents the location of the next window Batman should jump to. **X** represents the index along the horizontal axis, **Y** represents the index along the vertical axis. (0,0) is located in the top-left corner of the building.
 
 ## Constraints
