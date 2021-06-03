@@ -77,6 +77,6 @@ Response time per turn ≤ 150ms
 
 ![](shadows_of_the_knight_e1_co.png)
 
-![](shadows_of_the_knight_e1_co.png)
+![](shadows_of_the_knight_e1.png)
 
 # Flowchart
