@@ -19,11 +19,11 @@ Before each jump, the heat-signature device will provide Batman with the directi
 
 **UL** (Up-Left)
 
-Your mission is to program the device so that it indicates the location of the next window Batman should jump to in order to reach the bombs' room as soon as possible.
-Buildings are represented as a rectangular array of windows, the window in the top left corner of the building is at index (0,0).
+Your mission is to program the device so that **it indicates the location of the next window Batman should jump to** in order to reach the bombs' room **as soon as possible**.
+Buildings are represented as a rectangular array of windows, the window in **the top left corner of the building is at index (0,0)**.
 
 ## 	Note
-For some tests, the bombs' location may change from one execution to the other: the goal is to help you find the best algorithm in all cases.
+For some tests, **the bombs' location may change from one execution to the other**: the goal is to help you find the best algorithm in all cases.
 The tests provided are similar to the validation tests used to compute the final score but remain different.
 
 ## 	Game Input
