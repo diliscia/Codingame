@@ -11,23 +11,23 @@ The Puzzles I've done so far are:
 
 **Name** / Languages Solved 
 
-**ASCII Art** / C++, Python, Java
+**ASCII Art** / C++, Java, Python
 
 **Chuck Norris** / C++, Python 
 
 **Defibrillators** / C++, Python
 
-**Horse-Racing Duals** / C++, Python, Java, JavaScript, Bash
+**Horse-Racing Duals** / Bash, C++, Java, JavaScript, Python
 
 **MIME Type** / C++, Python
 
-**Mars Lander - Episode 1** / C++, Python, Java, JavaScript, Bash
+**Mars Lander - Episode 1** / Bash, C++, Java, JavaScript, Python 
 
-**Power Of Thor - Episode 1** / C++, Python, Java, JavaScript, Bash
+**Power Of Thor - Episode 1** / Bash, C++, Java, JavaScript, Python 
 
-**Shadows of the Knight - Episode 1** / C++, C#, Python, Java, JavaScript
+**Shadows of the Knight - Episode 1** / C#, C++, Java, JavaScript, Python
 
-**Temperatures** / C++, Python, Java, JavaScript, Bash
+**Temperatures** / Bash, C#, C++, Java, JavaScript, Python
 
-**The Descent** / C++, Python, Java, JavaScript, Bash
+**The Descent** / Bash, C++, Java, JavaScript, Python
 
