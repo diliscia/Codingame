@@ -29,5 +29,5 @@ The Puzzles I've done so far are:
 
 **Temperatures** / Bash, C#, C++, Java, JavaScript, Python
 
-**The Descent** / Bash, C++, Java, JavaScript, Python
+**The Descent** / Bash, C#, C++, Java, JavaScript, Python
 
