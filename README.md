@@ -23,7 +23,7 @@ The Puzzles I've done so far are:
 
 **Mars Lander - Episode 1** / Bash, C#, C++, Java, JavaScript, Python 
 
-**Power Of Thor - Episode 1** / Bash, C++, Java, JavaScript, Python 
+**Power Of Thor - Episode 1** / Bash, C#, C++, Java, JavaScript, Python 
 
 **Shadows of the Knight - Episode 1** / C#, C++, Java, JavaScript, Python
 
