@@ -21,7 +21,7 @@ The Puzzles I've done so far are:
 
 **MIME Type** / C++, Python
 
-**Mars Lander - Episode 1** / Bash, C++, Java, JavaScript, Python 
+**Mars Lander - Episode 1** / Bash, C#, C++, Java, JavaScript, Python 
 
 **Power Of Thor - Episode 1** / Bash, C++, Java, JavaScript, Python 
 
