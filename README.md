@@ -17,7 +17,7 @@ The Puzzles I've done so far are:
 
 **Defibrillators** / C++, Python
 
-**Horse-Racing Duals** / Bash, C++, Java, JavaScript, Python
+**Horse-Racing Duals** / Bash, C#, C++, Java, JavaScript, Python
 
 **MIME Type** / C++, Python
 
