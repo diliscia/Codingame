@@ -13,7 +13,7 @@ The Puzzles I've done so far are:
 
 **ASCII Art** / C++, Java, Python
 
-**Chuck Norris** / C++, Python 
+**Chuck Norris** / C#, C++, Python 
 
 **Defibrillators** / C++, Python
 
