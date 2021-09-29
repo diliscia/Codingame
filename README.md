@@ -25,7 +25,7 @@ The Puzzles I've done so far are:
 
 **Power Of Thor - Episode 1** / Bash, C#, C++, Java, JavaScript, Python 
 
-**Shadows of the Knight - Episode 1** / C#, C++, Java, JavaScript, Python
+**Shadows of the Knight - Episode 1** / Bash, C#, C++, Java, JavaScript, Python
 
 **Temperatures** / Bash, C#, C++, Java, JavaScript, Python
 
