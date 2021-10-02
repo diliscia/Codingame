@@ -29,8 +29,8 @@ int main()
     for (int i = 0; i < Q; i++) {
         string FNAME;
         getline(cin, FNAME);    // One file name per line.
-        string NAME;
-        string EXT2;
+        string NAME;    // substring for  the name
+        string EXT2;    // substring for  the extension
         string::size_type pos = FNAME.find_last_of('.');    // checking if there is a '.', that means an extension
         if (0 < pos < 256)  {                               // and assigning the last substring as the extension (key)
             if(FNAME.npos != pos) {
@@ -38,12 +38,12 @@ int main()
                 for (int j = 0; j < EXT2.length(); j++)
                     EXT2[j] = tolower(EXT2[j]);
                 if (MIMETYPES.find(EXT2) == MIMETYPES.end())    // if the extension (key) is not present
-                    cout << "UNKNOWN" << endl;                  
+                    cout << "UNKNOWN" << endl;                  // print that is UNKNOWN
                 else                                            // if the extension (key) is present
                     cout << MIMETYPES[EXT2] << endl;            // print the MIME type
         }
         else
-            cout << "UNKNOWN"<< endl;    
+            cout << "UNKNOWN"<< endl;    // if there is no '.' print that is UNKNOWN
         }
     }
     // Write an answer using cout. DON'T FORGET THE "<< endl"
