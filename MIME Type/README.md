@@ -1,4 +1,4 @@
-# MIMEType
+# MIME Type
 
 ## The Goal
 MIME types are used in numerous internet protocols to associate a media type (html, image, video ...) with the content sent. The MIME type is generally inferred from the extension of the file to be sent.
