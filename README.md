@@ -19,7 +19,7 @@ The Puzzles I've done so far are:
 
 **Horse-Racing Duals** / Bash, C#, C++, Java, JavaScript, Python
 
-**MIME Type** / C++, Python
+**MIME Type** / C#, C++, Python
 
 **Mars Lander - Episode 1** / Bash, C#, C++, Java, JavaScript, Python 
 
